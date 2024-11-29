@@ -1,0 +1,166 @@
+/*--------------TỔNG QUAN--------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/anh-truong.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#054c00;
+    color: #fff;
+}
+
+.right{
+    display: flex;
+}
+
+.right img{
+    width: 80px;
+    height: 36px;
+    margin-left: 0.5rem;
+}
+
+.right h5{
+    margin-left: 4rem;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.left{
+    margin-right: 4rem;
+    line-height: 36px;
+}
+
+.left a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.form{
+    margin: auto;
+    width: 700px;   
+}
+
+.main{
+    margin: auto;
+    width: 700px;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.bang-danh-gia{
+    padding: 2.7rem;
+}
+
+.bang-danh-gia h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.thongtin div{
+    display: flex;
+    padding: 0.2rem;
+}
+
+.thongtin div h5{
+    width: 100px;
+}
+
+.thongtin div input{
+    width: 500px;
+}
+
+.bang-danh-gia table{
+    text-align: center;
+    width: 100%;
+}
+
+.bang-danh-gia table th, .bang-danh-gia table td{
+    padding: 4px;
+} 
+
+.bang-danh-gia table th img{
+    width: 30px;
+    
+}
+
+.bang-danh-gia h4{
+    padding-top: 1rem; 
+}
+
+.bang-danh-gia .txt-comment{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 100px;
+}
+
+.bang-danh-gia .btn-sub{
+    width: 60px;
+    display: flex;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    margin: auto;
+    justify-content: center; 
+    border: 1px solid;
+    font-size: 15px;
+   
+}
+
+.footer{
+    margin-top: 1rem;
+    background-color: #054c00;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+}
+
+.infor{
+    flex: 2;
+    margin: 1rem auto;
+}
+
+.lienket{
+    flex: 3;
+    margin: 1rem auto;
+}
+
+.footer img{
+    max-width: 170px;
+    height: auto;
+    margin: auto;
+    flex: 3;
+}
+
+.footer p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.footer a{
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 700px){
+    .form{
+        width: 450px;
+    }
+
+    .main{
+        width: 450px;
+    }
+}
